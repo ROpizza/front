@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -17,10 +18,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -67,6 +67,7 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "postcss": "^8.4.20",
     "prop-types": "^15.8.1",
+    "react-app-alias": "^2.2.2",
     "storybook": "^6.5.14",
     "tailwindcss": "^3.2.4",
     "webpack": "^5.75.0"
